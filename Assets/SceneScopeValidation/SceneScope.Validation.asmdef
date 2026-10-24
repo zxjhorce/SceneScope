@@ -1,0 +1,4 @@
+{
+  "name": "SceneScope.Validation",
+  "references": ["SceneScope.Runtime"]
+}

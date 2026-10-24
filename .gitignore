@@ -1,0 +1,53 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.vs/
+*.csproj
+*.sln
+*.user
+artifacts/
+
+# Unity builds and local IDE / operating-system state.
+[Bb]uild/
+[Bb]uilds/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.pidb
+*.booproj
+*.suo
+*.userprefs
+*.opendb
+*.VC.db
+sysinfo.txt
+crashlytics-build.properties
+
+# Keep one ready-to-open demo; other generated copies remain local.
+/Assets/SceneScopeDemo/Generated*/
+/Assets/SceneScopeDemo/Generated*.meta
+!/Assets/SceneScopeDemo/Generated 2/
+!/Assets/SceneScopeDemo/Generated 2.meta
+
+# Validation creates fixtures and build output locally.
+/Assets/SceneScopeValidation/RuntimeFixture*/
+/Assets/SceneScopeValidation/RuntimeFixture*.unity
+/Assets/SceneScopeValidation/RuntimeFixture*.unity.meta
+/Assets/SceneScopeValidation/RuntimeFixture*.meta
+
+# Unused empty directory left by local validation setup.
+/Packages/com.scenescope.diagnostics/Editor/Validation/
+/Packages/com.scenescope.diagnostics/Editor/Validation.meta
+
+# Local credentials and agent workspace settings are not project sources.
+.env
+.env.*
+.codex/
+.agents/
+.aws/

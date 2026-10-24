@@ -1,0 +1,5 @@
+{
+  "name": "SceneScope.Runtime",
+  "rootNamespace": "SceneScope.Runtime",
+  "autoReferenced": true
+}

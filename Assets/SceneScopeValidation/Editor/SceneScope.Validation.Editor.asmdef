@@ -1,0 +1,5 @@
+{
+  "name": "SceneScope.Validation.Editor",
+  "references": ["SceneScope.Runtime", "SceneScope.Editor"],
+  "includePlatforms": ["Editor"]
+}

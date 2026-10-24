@@ -1,0 +1,7 @@
+{
+  "name": "SceneScope.Editor",
+  "rootNamespace": "SceneScope.Editor",
+  "references": ["SceneScope.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}
